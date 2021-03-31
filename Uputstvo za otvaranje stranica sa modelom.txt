@@ -1,0 +1,22 @@
+Kako bi se uspešno otvorila stranica, potrebno je promeniti jedno podešavanje u Google Chrome-u,
+jer stranice nemaju svoj server na kome se nalaze 3d modeli. 
+
+Pratite uputstvo ispod:
+
+1 - Kliknite desni klik na svoju ikonicu Google Chrome-a na Desktopu.
+
+2 - Kliknite "Properties".
+
+3 - Kada se otvori properties, na stranici "Shortcut" ćete videti red koji se zove
+"Target" i pored koga se ispisano nalazi sledeće:
+	"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+
+4 - U produžetku ovoga treba dodati prvo jedan razmak pa onda sledeće:
+	--allow-file-access-from-files
+
+5 - Prozorčić u produžetku "Targeta" treba ovako da izgleda na kraju:
+	"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-file-access-from-files
+
+6 - Kliknite "apply" pa "ok" i onda preko te ikonice možete otvoriti "HTML" fajlove.
+
+7 - Najjednostavnije je otvoriti tako što kliknete dva puta na željeni "HTML" fajl.
